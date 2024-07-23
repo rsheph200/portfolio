@@ -1,0 +1,146 @@
+* {
+    margin: 0 0;
+}
+
+body {
+    background-color: #F4EFEC;
+    text-align: center;
+}
+
+
+/* navigation */
+
+header {
+    border-bottom: 1px solid #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 69px;
+    align-items: center;
+}
+
+.logo.wrapper {
+    flex: 1;
+    text-align: left;
+}
+
+img.logo {
+    max-height: 30px;
+}
+
+ul.nav-items {
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+    padding-left: 0px;
+}
+
+.nav-items .nav-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    }
+
+li.nav-item {
+    list-style: none;
+}
+
+li.nav-item a {
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+/* hero section */
+
+.hero-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-section .image.wrapper {
+    flex: 2;
+}
+
+.content.wrapper {
+    display: flex;
+    flex: 3;
+}
+
+.hero-section .homepage-heading {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.hero-section .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "GT Pressura Trial-ExtRg", Helvetica;
+    font-weight: 400;
+    color: #18181b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.hero-section .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.hero-section .stable-audio {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "GT Pressura Trial-ExtMd", Helvetica;
+    font-weight: 400;
+    color: #18181b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.hero-section .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "GT Pressura Trial-ExtRg", Helvetica;
+    font-weight: 400;
+    color: #18181b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.hero-section .icon-button {
+    position: relative;
+    width: 28.04px;
+    flex: 0 0 auto;
+}
+
+.hero-section .image.wrapper {
+    flex: 2;
+}
+
+.hero-section .image {
+    position: relative;
+    width: 100%;
+}

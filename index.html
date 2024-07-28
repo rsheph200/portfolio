@@ -10,12 +10,12 @@
     <header>
         <div class="navbar">
             <div class="logo wrapper">
-                <img class="logo" src="/Users/ruarishephard/Documents/Code_Ac/Projects/portfolio/Assets/Ru_Logo_Nav_2.png">
+                <a href="./index.html"><img class="logo" src="/Users/ruarishephard/Documents/Code_Ac/Projects/portfolio/Assets/Ru_Logo_Nav_2.png"></a>
             </div>
             <ul class="nav-wrapper">
                 <li class="nav-item active"><a href="#projects">Projects</a></li>
                 <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="./contact.html">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -154,19 +154,43 @@
     <footer>
         <div class="item about">
             <h4>About</h4>
-            <button class="secondary"><a>View</a><img src="./Assets/Button_Arrow.svg"></button>
+            <a class="secondary button" href="#contact">
+                View
+                <img src="./Assets/Button_Arrow.svg">
+            </a>
         </div>
         <div class="item experiment">
-            <h4>About</h4>
-            <button class="secondary"><a>View</a><img src="./Assets/Button_Arrow.svg"></button>
+            <h4>Experiment</h4>
+            <a class="secondary button" href="#contact">
+                View
+                <img src="./Assets/Button_Arrow.svg">
+            </a>
         </div>
         <div class="item contact">
-            <h4>About</h4>
-            <button class="secondary"><a>View</a><img src="./Assets/Button_Arrow.svg"></button>
+            <h4>Contact</h4>
+                <a class="secondary button" href="./contact.html">
+                    View
+                    <img src="./Assets/Button_Arrow.svg">
+                </a>
         </div>
         <div class="item">
 
         </div>
     </footer>
 
+
+    <script>
+        document.querySelectorAll('.grid-item img').forEach(function(img) {
+            img.addEventListener('click', function() {
+                if (this.style.transform === 'scale(1.1)') {
+                    this.style.transform = 'scale(1)';
+                    this.style.boxShadow = 'none';
+                } else {
+                    this.style.transform = 'scale(1.1)';
+                    this.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)';
+                }
+                this.style.transition = 'all 0.3s ease';
+            });
+        });
+    </script>
 </body>

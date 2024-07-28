@@ -291,7 +291,7 @@ footer .item.contact {
     background-color: rgb(220, 220, 212);
 }
 
-button.secondary {
+.secondary.button {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #18181B;
     display: flex;
@@ -300,11 +300,70 @@ button.secondary {
     padding: 6px 12px;
     border-radius: 34px;
     gap: 4px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
 }
 
-button.secondary a { 
-    font-size: 14px;
+.secondary.button:hover {
+    background-color: #18181B;
+    color: #F4EFEC;
 }
+
+.button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+
+
+
+/*------------ contact page ------------*/
+
+section.contact {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.contact-header {
+    flex: 1;
+    text-align: left;
+}
+
+form.contact-form {
+    flex: 1;
+    text-align: left;
+}
+  
+  .form-item {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  textarea,
+  input {
+    resize: vertical;
+    width: 60%;
+  }
+  
+
+
+
 
 
 /*------------ mobile ------------*/

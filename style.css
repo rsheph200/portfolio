@@ -364,6 +364,61 @@ form.contact-form {
 
 
 
+/*------------ about page ------------*/
+
+.about-header {
+    display: inline-flex;
+    gap: 1%;
+    margin-bottom: 20px;
+}
+
+.intro {
+    flex: 3;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-img {
+    flex: 1;
+}
+
+img.about {
+    width: 100%;
+}
+
+.about-snip {
+    display: flex;
+    flex-direction: column;
+}
+
+section.about-info {
+    margin-top: 20px;
+}
+
+h4.about {
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.about-grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+
+
+.info-item {
+    flex: 0 24%;
+    margin-bottom: 3rem;
+}
+
+
+
 
 
 /*------------ mobile ------------*/

@@ -6,6 +6,6 @@ What I plan to do is:
 + DONE: contact page with some working forms.
 + have it so that this is all responsive.
 + DONE: get to know branches and merging.
-+ see if I can publish to a subdomain...
++ DONE: publish to github pages
 + DONE: write a proper README file.
 + DONE: Need to add some JS.

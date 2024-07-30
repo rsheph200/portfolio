@@ -528,3 +528,21 @@ h4.about {
 
 
 /*------------ mobile ------------*/
+
+@media screen and (min-width: 800px) and (max-width: 960px) {
+
+    .grid-item {
+        flex: 0 32%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .grid-item {
+        flex: 0 49%;
+    }
+
+    
+
+}
